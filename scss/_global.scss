@@ -1,0 +1,59 @@
+.wrapper {
+  max-width: 1440px; //if screen bigger than it, just stay at this width
+  margin: 0 auto; //center
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+  font-weight: 400;
+  background: white;
+}
+.button {
+  display: inline-block;
+  font-family: $font;
+  border-radius: 50px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  &--primary {
+    background-color: $primary-color;
+    color: #ffffff;
+    box-shadow: 0 30px 54px -5px rgba(245, 56, 56, 0.35);
+  }
+  &--outline {
+    color: #f53838;
+    border: 2px solid;
+    background-color: transparent;
+  }
+  &--big {
+    border-radius: 10px;
+    padding: 17.5px 77.5px;
+  }
+  &--small {
+    padding: 13px 63px;
+    border-radius: 50px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+  font-weight: 700;
+}
+.heading {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}

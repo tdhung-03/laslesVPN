@@ -1,0 +1,28 @@
+.subscribe {
+  margin-bottom: 63.5px;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 380px;
+    padding: 58.5px 70px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);
+  }
+  &-header {
+    width: 100%;
+    max-width: 370px;
+  }
+  &-heading {
+    line-height: 45px;
+  }
+  &-desc {
+    font-size: 16px;
+  }
+  .button {
+    padding: 17.5px 65px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}

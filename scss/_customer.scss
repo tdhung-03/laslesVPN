@@ -1,0 +1,70 @@
+.customer {
+  padding-bottom: 65px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &-heading {
+    width: 100%;
+    max-width: 447px;
+    margin: 0 auto 20px;
+  }
+  &-header {
+    text-align: center;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 555px;
+  }
+  &-text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &-list {
+    display: flex;
+    gap: 0 45px;
+  }
+  &-item {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  &-top {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-info {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+  }
+  &-name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  &-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+  }
+  &-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  &-rating {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+  }
+}

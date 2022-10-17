@@ -1,0 +1,32 @@
+.intro {
+  margin-bottom: 95px;
+  &-container {
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    padding: 37px 0;
+    box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);
+    min-height: 200px;
+  }
+  &-item {
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 36.5px;
+  }
+  &-item:nth-child(2) {
+    border-left: 2px solid #eeeff2;
+    border-right: 2px solid #eeeff2;
+  }
+  &-title {
+    font-size: 25px;
+    margin-bottom: 5px;
+    line-height: 30px;
+  }
+  &-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}

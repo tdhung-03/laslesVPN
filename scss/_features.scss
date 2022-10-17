@@ -1,0 +1,36 @@
+.features {
+  padding-bottom: 130px;
+  &-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0 170px;
+  }
+  &-content {
+    width: 100%;
+    max-width: 428px;
+  }
+  &-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  &-list {
+    list-style: none;
+  }
+  &-item {
+    img {
+      margin-right: 10px;
+    }
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  &-item:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
